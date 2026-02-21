@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Blog - Gemilang Katun Outbond | Tips & Info Outbound Terupdate</title>
+    <meta name="description"
+        content="Koleksi artikel, tips, dan informasi seputar outbound, team building, dan family gathering di Batu Malang.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .blog-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/img/blog-main.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-top: 0;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 80px 5%;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .blog-card-img {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .blog-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-card-content {
+            padding: 25px;
+        }
+
+        .blog-card-content h3 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            color: var(--primary);
+        }
+
+        .blog-card-content p {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .read-more {
+            color: var(--secondary);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">
+            <img src="assets/img/logo.png" alt="Gemilang Katun Outbond Logo">
+        </a>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Blog Header -->
+    <div class="blog-header">
+        <div>
+            <h1 style="font-size: 3rem; margin-bottom: 10px;">Wawasan Outbound</h1>
+            <p>Inspirasi dan tips untuk kegiatan luar ruangan yang tak terlupakan</p>
+        </div>
+    </div>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid">
+        <!-- Article 1 -->
+        <div class="blog-card">
+            <div class="blog-card-img">
+                <img src="assets/img/blog-1.jpg" alt="Pentingnya Team Building">
+            </div>
+            <div class="blog-card-content">
+                <h3>Pentingnya Membangun Kerja Sama Tim Lewat Aktivitas Outbound</h3>
+                <p>Membangun tim yang solid bukanlah perkara mudah. Artikel ini membahas bagaimana aktivitas outbound
+                    dapat menjadi solusi efektif...</p>
+                <a href="blog-detail.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <!-- Article 2 -->
+        <div class="blog-card">
+            <div class="blog-card-img">
+                <img src="assets/img/blog-2.jpg" alt="Lokasi Outbound Batu">
+            </div>
+            <div class="blog-card-content">
+                <h3>5 Lokasi Outbound Paling Estetik di Batu Malang Tahun 2026</h3>
+                <p>Batu Malang tetap menjadi primadona untuk kegiatan outbound. Berikut adalah 5 rekomendasi lokasi
+                    terbaru dengan konsep estetik...</p>
+                <a href="blog-detail.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <!-- Article 3 -->
+        <div class="blog-card">
+            <div class="blog-card-img">
+                <img src="assets/img/blog-3.jpg" alt="Tips Memilih Provider">
+            </div>
+            <div class="blog-card-content">
+                <h3>Tips Memilih Provider Outbound yang Terpercaya untuk Perusahaan</h3>
+                <p>Jangan salah pilih! Pastikan Anda tahu kriteria provider outbound profesional agar investasi
+                    perusahaan Anda membuahkan hasil...</p>
+                <a href="blog-detail.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <!-- Article 4 -->
+        <div class="blog-card">
+            <div class="blog-card-img">
+                <img src="assets/img/blog-4.jpg" alt="Manfaat Outbound Anak">
+            </div>
+            <div class="blog-card-content">
+                <h3>Manfaat Outbound Edukatif bagi Perkembangan Motorik Anak</h3>
+                <p>Bukan sekadar bermain, outbound bagi anak-anak memiliki segudang manfaat bagi perkembangan fisik dan
+                    mental mereka...</p>
+                <a href="blog-detail.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <!-- Article 5 -->
+        <div class="blog-card">
+            <div class="blog-card-img">
+                <img src="assets/img/blog-5.jpg" alt="Family Gathering">
+            </div>
+            <div class="blog-card-content">
+                <h3>Kegiatan Seru untuk Family Gathering yang Tak Akan Terlupakan</h3>
+                <p>Bingung mau ngapain pas gathering keluarga? Simak ide-ide permainan seru yang bisa mempererat
+                    hubungan antar anggota keluarga...</p>
+                <a href="blog-detail.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Buttons -->
+    <a href="https://wa.me/6281234567890" class="floating-wa" target="_blank" aria-label="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <div class="floating-up" id="scrollTop" aria-label="Scroll to Top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="assets/img/logo-white.png" alt="Gemilang Katun Outbond Logo">
+                </div>
+                <p>Penyedia layanan outbound profesional di Batu Malang dengan program yang dirancang khusus untuk
+                    meningkatkan kebersamaan dan produktivitas tim Anda.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Menu Navigasi</h4>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Kontak Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Outbond No. 7, Batu, Malang</p>
+                <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                <div style="margin-top: 20px; display: flex; gap: 15px;">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gemilang Katun Outbond. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
